@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Use a for adding ,s for subtracting and any other charcter for multiply"<<endl;
+    char opr= 'a';
+   
+    cin>>opr;
+    int x,y;
+    cout<<"Enter value of x"<<endl;
+    cin>>x;
+    cout<<"Enter value of y"<<endl;
+    cin>>y;
+    cout<<endl;
+    if(opr=='a')
+    {
+        cout<<"Summ of numbers is : "<<x+y;
+    }
+    else if(opr=='s')
+    {
+        cout<<"Difference of numbers is : "<<x-y<<endl;
+    }
+    else
+    cout<<"Multiplication of numbers is : "<<x*y<<endl;
+    return 0;
+   
+}
