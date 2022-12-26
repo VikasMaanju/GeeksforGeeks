@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter the value of A: "<<endl;
+    cin>>a;
+    cout<<"Enter the value of B: "<<endl;
+    cin>>b;
+    cout<<"Enter the value of C: "<<endl;
+    cin>>c;
+    cout<<endl;
+    if(a>=b and a>=c)
+    {
+        cout<<"A is greater and value is: "<<a;
+    }
+    else if(b>=a and b>=c)
+    {
+        cout<<"B is greater and value is: "<<b;
+       
+    }
+    else
+    cout<<c;
+    return 0;
+}
