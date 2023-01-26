@@ -13,5 +13,5 @@ int main()
 {
     int arr[]= {1,2,3,4,5,6,7,8,10}, n=9;
     cout<<issorted(arr,n);
-    return true;                            //  0 means array is not sorted and 1 means array is sorted 
-}
+                              //  0 means array is not sorted and 1 means array is sorted 
+}                             // We can also use "cout<<(issorted(arr,n)? "True" : "False");" for taking value as true and false
