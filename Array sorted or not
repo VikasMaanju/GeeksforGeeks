@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int arr[]={2,5,7,9,0};
+  int n=5;
+  for (int i=1;i<n;i++){
+    if(arr[i-1]>arr[i]){
+      cout<<"array is not sorted";
+      exit(0);
+      }
+    }
+    cout<<"array is sorted";
+    return 0; 
+  
+}
