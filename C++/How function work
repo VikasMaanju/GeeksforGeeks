@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+void fun2()       //When fun 2 is called it just exicute single line and finishes
+{
+  cout<<"I am coding"<<endl;
+}
+void fun1()       //When fun 1 is called it print 1st line and then call fun2 and then fun 2 program is exicuted
+{
+  cout<<"Hii i am here"<<endl;
+  fun2();           //Afrer fun 2 is called fun 1 again print its last line and then return to the main function
+  cout<<"I am happy"<<endl;
+}
+int main(){
+  cout<<"Here i am calling fun1()"<<endl;
+  
+  //Here fun1 is called 
+  
+  fun1();
+  cout <<"Calling last line of main\n";
+  return 0;
+}
